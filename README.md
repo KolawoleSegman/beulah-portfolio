@@ -2,6 +2,8 @@
 
 A self-managed PHP/MySQL portfolio website for Balogun Beulah Toluwalase.
 
+**🔗 Live site:** [https://your-site-url.com](https://your-site-url.com)
+
 ## Main features
 
 - Premium responsive public portfolio
@@ -44,11 +46,11 @@ The seeded account is:
 - Email: `admin@example.com`
 - Temporary password: `ChangeMe@2026`
 
-You are **forced to set a new password** (min. 10 characters) and can change the login email on first sign-in. Later you can change them anytime from Admin -> Account.
+You are **forced to set a new password** (min. 10 characters) and can change the login email on first sign-in. Later you can change them anytime from Admin → Account.
 
 Forgot the password? Generate a hash with `php -r "echo password_hash('NEW_PASSWORD', PASSWORD_DEFAULT);"`, update `admins.password_hash` in phpMyAdmin and set `must_change_password` to 1.
 
-## Videos: upload a clip, link the full video
+Videos: upload a clip, link the full video
 
 - **Upload:** short clips (MP4 recommended). On InfinityFree each file must be under 10 MB.
 - **Video Links:** in the project form, paste YouTube or Vimeo links, one per line. They play directly on the project page. Unlisted videos work too.
@@ -64,38 +66,3 @@ upload_max_filesize = 512M
 post_max_size = 550M
 max_execution_time = 300
 max_input_time = 300
-```
-
-If your hosting provider does not permit large uploads, use hosted video storage such as a dedicated object/video service and store the external URL instead. The current version is designed for direct server uploads.
-
-## Recommended production security
-
-- Use HTTPS.
-- Use a strong admin password.
-- Rename or protect the admin area if desired.
-- `uploads/.htaccess` already blocks PHP execution on Apache. On Nginx, add an equivalent rule.
-- Keep regular database and upload backups.
-- Add rate limiting to login.
-- Keep PHP and MySQL updated.
-
-## Adding new work
-
-Admin → Portfolio → Add Project.
-
-You can add:
-
-- title
-- category
-- client
-- platform
-- tools
-- description
-- project URL
-- cover image
-- multiple images
-- multiple videos
-- featured status
-- published/draft status
-
-The public website automatically displays published projects. No code changes are needed for normal content updates."# beulah-portfolio" 
-"# beulah-portfolio" 
