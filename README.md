@@ -2,7 +2,7 @@
 
 A self-managed PHP/MySQL portfolio website for Balogun Beulah Toluwalase.
 
-**🔗 Live site:** [https://your-site-url.com](https://your-site-url.com)
+**🔗 Live site:** (https://beulahbalogun.page.gd/)
 
 ## Main features
 
