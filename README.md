@@ -98,3 +98,4 @@ You can add:
 - published/draft status
 
 The public website automatically displays published projects. No code changes are needed for normal content updates."# beulah-portfolio" 
+"# beulah-portfolio" 
